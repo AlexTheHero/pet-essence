@@ -1,8 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import ErrorBoundary from "./ErrorHandlers/ErrorBoundary";
-import App from "./PetEssence";
-import "./index.css";
+import PetEssence from "./PetEssence";
+
+import "./assets/index.scss";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(
@@ -11,7 +12,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <ErrorBoundary>
-      <App />
+      <PetEssence />
     </ErrorBoundary>
   </React.StrictMode>
 );

@@ -1,5 +1,9 @@
-function App() {
-  return <div className="pet-essence"></div>;
-}
+import Playground from "./playground/Playground";
 
-export default App;
+const PetEssence = () => (
+  <div className="pet-essence">
+    <Playground />
+  </div>
+);
+
+export default PetEssence;
